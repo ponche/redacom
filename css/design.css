@@ -1,0 +1,84 @@
+/* Code pour les écran de PC */
+body
+{
+    /* reset du CSS */
+    margin: 0 ; 
+    overflow-x: hidden;
+    width: 100vw ; 
+
+
+}
+
+header
+{
+    display: flex ; 
+    justify-content: space-between ; 
+    background-color: white ; 
+}
+nav
+{
+    display: flex ; 
+    justify-content: space-around ; 
+    background-color: rgb(2, 120, 175) ;
+    position: sticky; 
+    top: 0px ; 
+}
+
+nav a
+{
+    /* bouton nav barre */
+    display: inline-block ;  /* pour qui soit prit en compte comme un block  */
+    text-align: center ; 
+    background-color: blue ; 
+    padding: 10px ; 
+    border-radius: 7px ;
+    margin: 5px ;  
+    text-decoration: none ; 
+    color: white ; 
+    /* border: solid red 2px ; juste pour le test */
+}
+
+nav a:hover
+{
+    color: red ; 
+}
+
+#area-login
+{
+    display: flex ; 
+    flex-direction : column ; 
+    justify-content: space-around ; 
+}
+main
+{
+    display: flex ; 
+    /* margin: 10px ;  */
+    width: 100vw ; 
+    overflow: hidden ; 
+    
+}
+section h2
+{
+    text-align: center; 
+}
+
+aside
+{
+    background-color: lightblue ; 
+    border-radius: 10px ; 
+    margin : 10px ; 
+    padding: 10px ; 
+    /* border: solid green 2px ;  */
+    width: 200px ; 
+    position: static ; 
+    top: 55px ; 
+}
+article
+{
+    background-color: lightskyblue ; 
+    border-radius: 10px ; 
+    margin: 20px ; 
+    padding: 10px ; 
+
+}
+
