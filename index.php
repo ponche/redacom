@@ -24,7 +24,7 @@
             </ol>
         </aside>
         <section>
-            -- <img src="images/bureau-with-logo-cahier.png" alt="bureau presentation" /> 
+             <img class="photoCarousel" src="images/bureau-with-logo-cahier.png" alt="bureau presentation" /> 
 
         </section>
     </main>
