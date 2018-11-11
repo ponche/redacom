@@ -61,6 +61,13 @@ main
     left: 0px ; 
     
 }
+.presentation-pv
+{
+    border: solid red 1px ; 
+    padding: 5px ; 
+    margin-bottom: 7px ; 
+
+}
 section
 {
     /* background-color: green ;  */
@@ -103,5 +110,15 @@ img
     max-width: 100% ;
     max-height: 100% ;
     display: inline-block ; 
+}
+
+/* Question réponse ( services ) */ 
+.question 
+{
+    text-decoration: underline ; 
+}
+.answer
+{
+    font-style: italic ; 
 }
 
