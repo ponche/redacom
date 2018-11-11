@@ -98,7 +98,8 @@
                 </div>
 
 
-                <div><span class="question">4/ Dans quels délais les PV doivent-ils être rédigés ?</span>
+                <div>
+                    <span class="question">4/ Dans quels délais les PV doivent-ils être rédigés ?</span>
 
                     <p class="answer">Les PV doivent être rédigés dans un délai de 15 jours maximum ou, le cas
                         échéant, dans le délai prévu par l'accord d'entreprise.

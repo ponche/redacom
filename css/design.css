@@ -66,6 +66,7 @@ main
     border: solid red 1px ; 
     padding: 5px ; 
     margin-bottom: 7px ; 
+    background-color: lightblue ; 
 
 }
 section
@@ -102,6 +103,7 @@ article
     border-radius: 10px ; 
     margin: 3em ; 
     padding: 10px ; 
+    box-shadow: 1em 1em 2em ; 
     
 
 }
