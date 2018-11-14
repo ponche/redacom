@@ -76,7 +76,7 @@ main
 section
 {
     /* background-color: green ;  */
-    margin: 2em ; 
+    margin: 5px ; 
     width: 100% ; 
 }
 section h2
@@ -105,7 +105,7 @@ article
 {
     background-color: lightskyblue ; 
     border-radius: 10px ; 
-    margin: 3em ; 
+    margin: 4px ; 
     padding: 10px ; 
     box-shadow: 1em 1em 2em ; 
     
@@ -136,6 +136,10 @@ img
     nav a 
     {
         width: 80vw ; 
+    }
+    section , article 
+    {
+        margin: 0px ; 
     }
 }
 
