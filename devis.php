@@ -26,44 +26,76 @@
             </ol>
         </aside>
         <section>
-
-            <div class="container">
-
-                <div class="form-sec">
-                    <h4>Contact form</h4>
-
-                    <form name="qryform" id="qryform" method="post" action="mail.php" onsubmit="return(validate());"
-                        novalidate="novalidate">
-                        <div class="form-group">
-                            <label>Name:</label>
-                            <input type="text" class="form-control" id="name" placeholder="Enter Name" name="name">
-                        </div>
-                        <div class="form-group">
-                            <label>Email:</label>
-                            <input type="email" class="form-control" id="name" placeholder="Enter Email" name="email">
-                        </div>
-
-                        <div class="form-group">
-                            <label>Phone No.:</label>
-                            <input type="text" class="form-control" id="phone" placeholder="Enter Phone no." name="phone">
-                        </div>
-                        <div class="form-group">
-                            <label>Subject:</label>
-                            <input type="text" class="form-control" id="name" placeholder="Subject" name="subject">
-                        </div>
-
-                        <div class="form-group">
-                            <label>Issues/query:</label>
-                            <textarea name="issues" class="form-control" id="iq" placeholder="Enter your Issues/query"></textarea>
-                        </div>
-
-
-                        <button type="submit" class="btn btn-default">Submit</button>
-                    </form>
+            <h2>Contacter nous</h2>
+            <form method="post" action="#">
+                <div class="field">
+                    <!-- Civilité -->
+                    <label for="civilite">Civilité</label>
+                    <select id="civilite" name="civilite">
+                        <option>Monsieur</option>
+                        <option>Madame</option>
+                    </select>
+                </div>
+                <div class="field">
+                    <!-- Nom-->
+                    <label for="nom">Nom : </label>
+                    <input type="text" id="nom" name="nom" required />
+                </div>
+                <div class="field">
+                    <!-- Prénom-->
+                    <label for="prenom">Prénom : </label>
+                    <input type="text" id="prenom" name="prenom" required />
+                </div>
+                <div class="field">
+                    <!-- adresse mail -->
+                    <label for="email">Adresse-email : </label>
+                    <input type="email" id="email" name="email" required />
+                </div>
+                <div class="field">
+                    <!-- Société -->
+                    <label for="societe">Société : </lable>
+                    <input type="text" id="societe" name="societe" required />
+                </div>
+                <div class="field">
+                    <!-- Nombre de Salarié -->
+                    <label for="nbworking">Nombre de Salarié : </label>
+                    <input type="number"> 
+                </div>
+                <div class="field">
+                    <!-- Téléphone Fixe -->
+                    <label for="phoneGSM">Téléphone Portable : </label>
+                    <input type="tel" id="phoneGSM" name="phoneGSM" />
+                </div>
+                <div class="field">
+                    <!-- Téléphone Portable -->
+                    <label for="phoneFixe">Téléphone Fixe : </label>
+                    <input type="tel" id="phoneFixe" name="phoneFixe" />
                 </div>
 
-
-            </div>
+                <div class="field">
+                    <!-- Votre fonction -->
+                    <label for=yourJob>Votre fonction</label>
+                    <input type="text" id="yourJob" name="yourJob" />
+                </div>
+                <div class="field">
+                    <!-- Votre instance -->
+                    <label for="instance">Votre Instance : </label>
+                    <input type="text" id="instance" name="instance">
+                </div>
+                <div class="field">
+                    <!-- Actuellement qui rédige vos PV -->
+                    <label for="writtenPV">Actuellement qui rédige vos PV ? : </label>
+                    <input type="text" id="writtenPV" name="writtenPV" />
+                </div>
+                <div class="field">
+                    <!-- Décrivez le problème que vous rencontrez avec vos PV -->
+                    <label for="problemPV">Décrivez le problème que vous rencontrz avec vos PV</label>
+                    <textarea id="problemPV" name="problemPV"></textarea>
+                </div>
+                <div class="submit-button">
+                    <input type="submit" value="envoyer" />
+                </div>
+            </form>
 
         </section>
     </main>
