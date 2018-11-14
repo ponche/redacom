@@ -104,8 +104,10 @@
                     <p class="answer">Les PV doivent être rédigés dans un délai de 15 jours maximum ou, le cas
                         échéant, dans le délai prévu par l'accord d'entreprise.
                         Des délais particuliers s'appliquent dans certaines circonstances :
-                        3 jours dans le cadre d'un projet de licenciement collectif pour motif économique,
-                        1 jour si la réunion concerne le redressement ou la liquidation judiciaire de l'entreprise.
+                        <ul>
+                            <li>3 jours dans le cadre d'un projet de licenciement collectif pour motif économique,</li>
+                            <li>1 jour si la réunion concerne le redressement ou la liquidation judiciaire de l'entreprise.</li>
+                        </ul>   
                     </p>
                 </div>
 

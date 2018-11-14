@@ -63,7 +63,7 @@ main
 }
 .presentation-pv
 {
-    border: solid red 1px ; 
+    border: solid white 1px ; 
     padding: 5px ; 
     margin-bottom: 7px ; 
     background-color: lightblue ; 
@@ -72,7 +72,7 @@ main
 section
 {
     /* background-color: green ;  */
-    margin: 0em ; 
+    margin: 2em ; 
     width: 100% ; 
 }
 section h2
@@ -88,7 +88,7 @@ section h2
 aside
 {
     background-color: lightblue ; 
-    border-radius: 10px ; 
+    /* border-radius: 10px ;  */
     /* margin : 10em 10px 0px 0px  ;  */ 
     padding: 10px ; 
     /* border: solid green 2px ;  */
@@ -122,5 +122,16 @@ img
 .answer
 {
     font-style: italic ; 
+}
+@media all and (max-width: 600px)  
+{
+    aside 
+    {
+        display: none ; 
+    }
+    nav a 
+    {
+        width: 80vw ; 
+    }
 }
 
