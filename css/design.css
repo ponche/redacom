@@ -127,6 +127,22 @@ img
 {
     font-style: italic ; 
 }
+
+/* formulaire */
+.field input 
+{
+    width: 95% ; 
+    margin: 3px ; 
+}
+input[type="submit"]
+{
+    text-align: right ; 
+}
+textarea
+{
+    display: block ; 
+
+}
 @media all and (max-width: 600px)  
 {
     aside 

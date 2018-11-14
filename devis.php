@@ -53,7 +53,7 @@
                 </div>
                 <div class="field">
                     <!-- Société -->
-                    <label for="societe">Société : </lable>
+                    <label for="societe">Société : </label>
                     <input type="text" id="societe" name="societe" required />
                 </div>
                 <div class="field">
