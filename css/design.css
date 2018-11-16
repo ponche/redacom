@@ -96,6 +96,24 @@ section h2
     text-align: center; 
     text-decoration: underline ; 
 }
+.section-accueil
+{
+    display: flex ; 
+    text-align: center ; 
+}
+.section-accueil div
+{
+    background: radial-gradient(#b0e0e6, #4169e1); 
+    border-radius: 50% ; 
+    width : 200px ; 
+    height: 200px;
+    margin: 2em ; 
+}
+.section-accueil span
+{
+    margin-top: 100px ;  
+    display: inline-block ;
+}
 .photoCarousel
 {
     text-align: center ; 
@@ -115,7 +133,7 @@ aside
 }
 article
 {
-    background: radial-gradient(#b0e0e6, #4169e1); ; 
+    background: radial-gradient(#b0e0e6, #4169e1); 
     border-radius: 10px ; 
     margin: 2em ; 
     padding: 10px ; 

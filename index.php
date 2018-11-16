@@ -23,8 +23,17 @@
                 <li>Des délais de remise des PV adaptables à vos besoins</li>
             </ol>
         </aside>
-        <section>
-             <img class="photoCarousel" src="images/bureau-with-logo-cahier.png" alt="bureau presentation" /> 
+        <section class="section-accueil">
+             <!-- <img class="photoCarousel" src="images/bureau-with-logo-cahier.png" alt="bureau presentation" />  -->
+             <div>
+                <span>CSE et organismes assimilés</span>
+            </div>
+            <div>
+                <span>Professionnnels </span>
+            </div>
+            <div>
+                <span>Particuliers</span>
+            </div>  
 
         </section>
     </main>
