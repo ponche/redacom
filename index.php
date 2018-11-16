@@ -12,13 +12,13 @@
     <?php include("includes/headerNav.html") ; ?>
     <main>
         <aside>
-            <q>7 bonnes raison de nous confier la rédaction de vos procès-verbaux</q>
+            <q>7 bonnes raisons de nous confier la rédaction de vos procès-verbaux</q>
             <ol>
                 <li>Un gain de temps assuré</li>
                 <li>Une qualité professionnelle</li>
                 <li>Un accompagnement personnalisé</li>
                 <li>Un Interlocteur unique</li>
-                <li>un budget maîtrisé et ajusté</li>
+                <li>Un budget maîtrisé et ajusté</li>
                 <li>Une confidentialité garantie</li>
                 <li>Des délais de remise des PV adaptables à vos besoins</li>
             </ol>

@@ -29,24 +29,17 @@
             <h2>Mes Services </h2>
             <article>
                 <h2>Transcription audio</h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, modi. Consequatur itaque nisi
-                    fuga vero aliquam? Magnam illum, harum assumenda obcaecati dolore necessitatibus, quisquam aliquid
-                    ab vitae culpa, repellendus eius.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, odit! In obcaecati nulla id
-                    sed eum incidunt. Illum, quisquam. Ab neque similique delectus tempore at, deserunt dolorem
-                    accusantium nihil quasi.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam porro deleniti quibusdam
-                    veritatis explicabo quis neque blanditiis maxime voluptatem facilis. Iste totam inventore aperiam
-                    quae voluptate tempora in placeat! Iste?
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quo aspernatur perspiciatis illum,
-                    ducimus consequuntur odit obcaecati nulla ea eligendi voluptate, sequi veniam velit exercitationem
-                    libero necessitatibus vero at quibusdam.
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus maiores aliquam minus
-                    architecto rerum ullam tempore nihil aliquid dicta, veritatis dolorum, vitae sit iusto ex?
-                    Repellendus possimus itaque iste error.
-                    l
-                </p>
+                <p>REDACOM vous propose un service de transcription de vos fichiers audio/vidéo.</p>
+
+<p>Nos prestations :</p>
+<ul>
+
+<li> Transcription médicale,</li>
+
+<li> Transcription juridique,</li>
+
+<li> Transcription d’entretiens pour les chercheurs, sociologues, doctorants… </li>
+</ul>
             </article>
             <article>
                 <h2>Compte rendu</h2>

@@ -26,7 +26,7 @@
             </ol>
         </aside>
         <section>
-            <h2>Contacter nous</h2>
+            <h2>Demande de Devis</h2>
             <form method="post" action="#">
                 <div class="field">
                     <!-- Civilité -->
@@ -38,22 +38,22 @@
                 </div>
                 <div class="field">
                     <!-- Nom-->
-                    <label for="nom">Nom : </label>
+                    <label for="nom">Nom* : </label>
                     <input type="text" id="nom" name="nom" required />
                 </div>
                 <div class="field">
                     <!-- Prénom-->
                     <label for="prenom">Prénom : </label>
-                    <input type="text" id="prenom" name="prenom" required />
+                    <input type="text" id="prenom" name="prenom"   />
                 </div>
                 <div class="field">
                     <!-- adresse mail -->
-                    <label for="email">Adresse-email : </label>
+                    <label for="email">Adresse-email* : </label>
                     <input type="email" id="email" name="email" required />
                 </div>
                 <div class="field">
                     <!-- Société -->
-                    <label for="societe">Société : </label>
+                    <label for="societe">Société* : </label>
                     <input type="text" id="societe" name="societe" required />
                 </div>
                 <div class="field">
@@ -63,8 +63,8 @@
                 </div>
                 <div class="field">
                     <!-- Téléphone Fixe -->
-                    <label for="phoneGSM">Téléphone Portable : </label>
-                    <input type="tel" id="phoneGSM" name="phoneGSM" />
+                    <label for="phoneGSM">Téléphone Portable* : </label>
+                    <input type="tel" id="phoneGSM" name="phoneGSM" required/>
                 </div>
                 <div class="field">
                     <!-- Téléphone Portable -->
@@ -74,8 +74,8 @@
 
                 <div class="field">
                     <!-- Votre fonction -->
-                    <label for=yourJob>Votre fonction</label>
-                    <input type="text" id="yourJob" name="yourJob" />
+                    <label for=yourJob>Votre fonction*</label>
+                    <input type="text" id="yourJob" name="yourJob" required/>
                 </div>
                 <div class="field">
                     <!-- Votre instance -->
@@ -89,7 +89,7 @@
                 </div>
                 <div class="field">
                     <!-- Décrivez le problème que vous rencontrez avec vos PV -->
-                    <label for="problemPV">Décrivez le problème que vous rencontrz avec vos PV</label>
+                    <label for="problemPV">Décrivez le problème que vous rencontrez avec vos PV</label>
                     <textarea id="problemPV" name="problemPV"></textarea>
                 </div>
                 <div class="submit-button">
