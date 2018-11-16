@@ -78,10 +78,10 @@ main
 }
 .presentation-pv
 {
-    border: solid white 1px ; 
+    /* border: solid white 1px ;  */
     padding: 5px ; 
     margin-bottom: 7px ; 
-    background-color: lightblue ; 
+    /* background-color: lightblue ;  */
 
 }
 section

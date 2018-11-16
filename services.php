@@ -43,7 +43,7 @@
             </article>
             <article>
                 <h2>Compte rendu</h2>
-                <h4> PV et la loi en 6 questions : </h4>
+                
                 <div class="presentation-pv" >
                     <p>
                         Les Procès-verbaux d’entreprise sont des documents incontournables. L’objectif de ces documents
@@ -60,6 +60,7 @@
                         pour la rédaction de ces documents.
                     </p>
                 </div>
+                <h4> PV et la loi en 6 questions : </h4>
 
 
                 <div>
