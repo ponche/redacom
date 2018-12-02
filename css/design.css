@@ -90,6 +90,8 @@ section
     margin: 5px ; 
     width: 100% ; 
     padding:12px ;
+    display: flex ; 
+    flex-wrap: wrap ; 
 }
 section h2
 {
