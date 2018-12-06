@@ -97,6 +97,7 @@ section h2
 {
     text-align: center; 
     text-decoration: underline ; 
+    width: 100% ; 
 }
 .section-accueil
 {
@@ -140,6 +141,7 @@ article
     margin: 2em ; 
     padding: 10px ; 
     box-shadow: 1em 1em 2em ; 
+    width: 100% ; 
     
 
 }
