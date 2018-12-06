@@ -16,7 +16,7 @@ header
     background-color: white ; 
     height: 150px ; 
     /* ajout de image */ 
-    background-image: url("../images/lake.jpg") ; 
+    background-image: url("../images/lake-banner.png") ; 
     background-size: cover ; 
     width: 100% ;
     
