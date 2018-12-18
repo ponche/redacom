@@ -179,17 +179,26 @@ textarea
 }
 @media all and (max-width: 600px)  
 {
-    aside 
+    header img 
     {
-        display: none ; 
+        height: 100px; 
+    }
+    nav 
+    {
+        flex-direction: column ; 
     }
     nav a 
     {
-        width: 80vw ; 
+        height: 8px ;
     }
-    section , article 
+    aside
     {
-        margin: 0px ; 
+        display: none
     }
+    .info-contact
+    {
+        display: none ; 
+    }
+    
 }
 
