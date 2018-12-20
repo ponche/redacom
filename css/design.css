@@ -177,6 +177,10 @@ textarea
     display: block ; 
 
 }
+.mobile
+{
+    display: none ; 
+}
 @media all and (max-width: 600px)  
 {
     header img 
@@ -198,6 +202,15 @@ textarea
     .info-contact
     {
         display: none ; 
+    }
+    .mobile
+    {
+        display: block ; 
+    }
+    .accueil 
+    {
+        display: flex ; 
+        flex-direction: column ; 
     }
     
 }
