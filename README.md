@@ -4,4 +4,9 @@ projet personnel en debut de formation PopSchool
 
 # Prérequis 
 
-rien, à par un navigateur internet ( sauf le vieux coucou de internet explorer )
+- PHP7.3
+
+# dependance à installer 
+
+- swiftmailer
+
