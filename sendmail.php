@@ -24,6 +24,7 @@ $message = (new Swift_Message('nouvelle demande de devis'))
 		->setTo([MAIL_TO])
 		->setBody("<p>Bonjour,</p> <p>une nouvelle demande de devis voici les information suivant : </p> 
 		<ul>
+		<li>Civilité : " . htmlspecialchars($_POST['civilite']) . "</li>
 		<li>NOM :" .  htmlspecialchars($_POST['nom']) . "</li>
 		<li>PRENOM :" .  htmlspecialchars($_POST['prenom']) ."</li>
 		<li>Adresse mail : " .  htmlspecialchars($_POST['email']) . "</li>

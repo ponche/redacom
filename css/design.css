@@ -5,6 +5,7 @@ body
     margin: 0 ; 
     overflow-x: hidden; 
     width: 100vw ; 
+    
 
 
 }
@@ -23,7 +24,7 @@ header
 }
 .info-contact
 {
-    padding-right: 15px ; 
+    padding-right: 30px ; 
 }
 .slogan
 {
@@ -180,6 +181,17 @@ textarea
 .mobile
 {
     display: none ; 
+}
+footer
+{
+    padding: 10px; 
+}
+.footer-nav
+{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around; 
+    flex-wrap: wrap; 
 }
 @media all and (max-width: 600px)  
 {

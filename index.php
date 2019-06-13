@@ -51,6 +51,7 @@
 
         </section>
     </main>
+	<?php include("includes/footer.html") ; ?>
     <!-- <script src="bootstrap/js/bootstrap.min.js"></script> -->
 </body>
 

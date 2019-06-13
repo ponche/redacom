@@ -101,5 +101,6 @@
     </main>
     <script src="bootstrap/js/bootstrap.min.js"></script>
 </body>
+<?php include("includes/footer.html") ; ?>
 
 </html>
