@@ -27,7 +27,7 @@
         </aside>
         <section>
             <h2>Demande de Devis</h2>
-            <form method="post" action="#">
+            <form method="post" action="sendmail.php">
                 <div class="field">
                     <!-- Civilité -->
                     <label for="civilite">Civilité</label>
@@ -59,12 +59,12 @@
                 <div class="field">
                     <!-- Nombre de Salarié -->
                     <label for="nbworking">Nombre de Salarié : </label>
-                    <input type="number"> 
+                    <input type="number" name="nbworking"> 
                 </div>
                 <div class="field">
                     <!-- Téléphone Fixe -->
                     <label for="phoneGSM">Téléphone Portable* : </label>
-                    <input type="tel" id="phoneGSM" name="phoneGSM" required/>
+                    <input type="tel" id="phoneGSM" name="phoneGSM" required />
                 </div>
                 <div class="field">
                     <!-- Téléphone Portable -->
@@ -74,8 +74,8 @@
 
                 <div class="field">
                     <!-- Votre fonction -->
-                    <label for=yourJob>Votre fonction*</label>
-                    <input type="text" id="yourJob" name="yourJob" required/>
+                    <label for="yourJob">Votre fonction*</label>
+                    <input type="text" id="yourJob" name="yourJob" required />
                 </div>
                 <div class="field">
                     <!-- Votre instance -->
