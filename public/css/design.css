@@ -1,0 +1,229 @@
+/* Code pour les écran de PC */
+body
+{
+    /* reset du CSS */
+    margin: 0 ; 
+    overflow-x: hidden; 
+    width: 100vw ; 
+    
+
+
+}
+
+header
+{
+    display: flex ; 
+    justify-content: space-between ; 
+    background-color: white ; 
+    height: 150px ; 
+    /* ajout de image */ 
+    background-image: url("../images/lake-banner.png") ; 
+    background-size: cover ; 
+    width: 100% ;
+    
+}
+.info-contact
+{
+    padding-right: 30px ; 
+}
+.slogan
+{
+    text-align: center ;
+}
+nav
+{
+    display: flex ; 
+    justify-content: space-around ; 
+    background-color: rgb(2, 120, 175) ;
+    position: sticky; 
+    top: 0px ; 
+}
+
+nav a
+{
+    /* bouton nav barre */
+    display: inline-block ;  /* pour qui soit prit en compte comme un block  */
+    text-align: center ; 
+    background-color: blue ; 
+    padding: 10px ; 
+    border-radius: 7px ;
+    margin: 5px ;  
+    text-decoration: none ; 
+    color: white ; 
+    /* border: solid red 2px ; juste pour le test */
+}
+
+nav a:hover
+{
+    color: black ; 
+}
+
+#area-login
+{
+    display: flex ; 
+    flex-direction : column ; 
+    justify-content: space-around ; 
+    
+}
+main
+{
+    display: flex ; 
+    /* margin: 10px ;  */
+    width: 100vw ; 
+    margin-top: 0 ; 
+    overflow: hidden ; 
+    /* margin-top: 20px ;  */
+    left: 0px ; 
+    
+    
+}
+.presentation-pv
+{
+    /* border: solid white 1px ;  */
+    padding: 5px ; 
+    margin-bottom: 7px ; 
+    /* background-color: lightblue ;  */
+
+}
+section
+{
+    /* background-color: green ;  */
+    margin: 5px ; 
+    width: 100% ; 
+    padding:12px ;
+    display: flex ; 
+    flex-wrap: wrap ; 
+}
+section h2
+{
+    text-align: center; 
+    text-decoration: underline ; 
+    width: 100% ; 
+}
+.section-accueil
+{
+    display: flex ; 
+    text-align: center ; 
+}
+.section-accueil div
+{
+    background: radial-gradient(#b0e0e6, #4169e1); 
+    border-radius: 50% ; 
+    width : 200px ; 
+    height: 200px;
+    margin: 2em ; 
+}
+.section-accueil span
+{
+    margin-top: 100px ;  
+    display: inline-block ;
+}
+.photoCarousel
+{
+    text-align: center ; 
+}
+
+aside
+{
+    background-color: lightblue ; 
+    /* border-radius: 10px ;  */
+    /* margin : 10em 10px 0px 0px  ;  */ 
+    padding: 10px ; 
+    /* border: solid green 2px ;  */
+    width: 200px ; /* pas top */ 
+    position: static ; 
+    top:0px ; 
+    left: 0px ;
+}
+article
+{
+    background: radial-gradient(#b0e0e6, #4169e1); 
+    border-radius: 10px ; 
+    margin: 2em ; 
+    padding: 10px ; 
+    box-shadow: 1em 1em 2em ; 
+    width: 100% ; 
+    
+
+}
+img 
+{
+    max-width: 100% ;
+    max-height: 100% ;
+    display: inline-block ; 
+}
+
+/* Question réponse ( services ) */ 
+.question 
+{
+    text-decoration: underline ; 
+}
+.answer
+{
+    font-style: italic ; 
+}
+
+/* formulaire */
+.field input 
+{
+    width: 95% ; 
+    margin: 3px ; 
+}
+input[type="submit"]
+{
+    text-align: right ; 
+}
+textarea
+{
+    display: block ; 
+
+}
+.mobile
+{
+    display: none ; 
+}
+footer
+{
+    padding: 10px; 
+}
+.footer-nav
+{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around; 
+    flex-wrap: wrap; 
+}
+@media all and (max-width: 600px)  
+{
+    header img 
+    {
+        height: 100px; 
+    }
+    nav 
+    {
+        flex-direction: column ; 
+    }
+    nav a 
+    {
+        height: 8px ;
+    }
+    aside
+    {
+        display: none
+    }
+    .info-contact
+    {
+        display: none ; 
+    }
+    .mobile
+    {
+        display: block ; 
+    }
+    .accueil 
+    {
+        display: flex ; 
+        flex-direction: column ; 
+    }
+    
+}
+
