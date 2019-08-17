@@ -30,13 +30,7 @@ class DefaultController extends AbstractController
         return $this->render('main/agence.html.twig'); 
     }
 
-    /**
-     * @Route("/devis")
-     */
-    public function devis()
-    {
-        return $this->render('main/devis.html.twig');
-    }
+    
 
     /** 
      * @Route("/article")
