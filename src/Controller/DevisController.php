@@ -23,6 +23,7 @@ class DevisController extends AbstractController
 
         if ($form->isSubmitted() && $form->isValid()) {
             $manager = $this->getDoctrine()->getManager();
+            $devis->setCreateAt(new \DateTime());
             $manager->persist($devis);
 
             $manager->flush();

@@ -91,6 +91,11 @@ class Enterprise
      */
     private $problemPv;
 
+    /**
+     * @ORM\Column(type="datetime")
+     */
+    private $createAt;
+
     public function getId(): ?int
     {
         return $this->id;
@@ -236,6 +241,18 @@ class Enterprise
     public function setProblemPv(?string $problemPv): self
     {
         $this->problemPv = $problemPv;
+
+        return $this;
+    }
+
+    public function getCreateAt(): ?\DateTimeInterface
+    {
+        return $this->createAt;
+    }
+
+    public function setCreateAt(\DateTimeInterface $createAt): self
+    {
+        $this->createAt = $createAt;
 
         return $this;
     }
