@@ -3,6 +3,7 @@
 namespace App\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Validator\Constraints as Assert;
 
 /**
  * @ORM\Entity(repositoryClass="App\Repository\EnterpriseRepository")
@@ -18,6 +19,16 @@ class Enterprise
 
     /**
      * @ORM\Column(type="string", length=255)
+     * @Assert\Choice(
+     *      choices = { "Monsieur", "Madame" }
+     * )
+     */
+
+     private $genre; 
+
+    /**
+     * @ORM\Column(type="string", length=255)
+     * @Assert\NotBlank
      */
     private $lastNamePeople;
 
@@ -28,11 +39,16 @@ class Enterprise
 
     /**
      * @ORM\Column(type="string", length=255)
+     * @Assert\NotBlank
      */
     private $nameEnterprise;
 
     /**
      * @ORM\Column(type="string", length=255)
+     * @Assert\NotBlank
+     * @Assert\Email(
+     *     message="veullez entrez une adresse mail valide"  
+     * )
      */
     private $mail;
 
@@ -43,6 +59,7 @@ class Enterprise
 
     /**
      * @ORM\Column(type="string", length=255)
+     * @Assert\NotBlank
      */
     private $phoneGSM;
 
@@ -53,6 +70,7 @@ class Enterprise
 
     /**
      * @ORM\Column(type="string", length=255)
+     * @Assert\NotBlank
      */
     private $jobPeople;
 
@@ -74,6 +92,18 @@ class Enterprise
     public function getId(): ?int
     {
         return $this->id;
+    }
+
+    public function getGenre(): ?string
+    {
+        return $this->genre;
+    }
+
+    public function setGenre(string $genre): self
+    {
+        $this->genre = $genre; 
+
+        return $this;
     }
 
     public function getLastNamePeople(): ?string
