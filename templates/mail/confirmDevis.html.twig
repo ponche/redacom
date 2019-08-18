@@ -3,12 +3,17 @@
 </head>
 
 <body>
-    <h1>Test d'envoi de mail </h1>
-
-    <p>Un petit test de rédaction du mail </p>
+    <h1>Une personne demande un devis avec les info suivant : </h1>
 
     <p>Nom  : {{ info.lastnamePeople }}</p>
     <p>Prénom : {{ info.firstnamePeople }}</p>
     <p>Nom de l'entreprise : {{ info.nameEnterprise }}</p>
     <p>le mail : {{ info.mail }}</p>
+    <p>nombre de salarié : {{   info.numberWorking }}</p>
+    <p>Numbéro de téléphone portable : {{ info.phoneGSM }}</p>
+    <p>Numéro de téléphone fixe : {{ info.phoneFixe }}</p>
+    <p>Instance du personnel : {{ info.instancePeople }} </p>
+    <p>Fonction de la personne : {{ info.jobPeople }}</p>
+    <p>la personne qui écrit les PV : {{ info.writtenPv }}</p>
+    <p>Problème PV : {{ info.problemPv }}</p>
 </body>
