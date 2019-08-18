@@ -60,11 +60,13 @@ class Enterprise
     /**
      * @ORM\Column(type="string", length=255)
      * @Assert\NotBlank
+     * @Assert\Regex(pattern="/^[0-9]*$/", message="number_only") 
      */
     private $phoneGSM;
 
     /**
      * @ORM\Column(type="string", length=255, nullable=true)
+     * @Assert\Regex(pattern="/^[0-9]*$/", message="number_only") 
      */
     private $phoneFixe;
 
