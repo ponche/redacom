@@ -30,33 +30,6 @@ header
 {
     text-align: center ;
 }
-nav
-{
-    display: flex ; 
-    justify-content: space-around ; 
-    background-color: rgb(2, 120, 175) ;
-    position: sticky; 
-    top: 0px ; 
-}
-
-nav a
-{
-    /* bouton nav barre */
-    display: inline-block ;  /* pour qui soit prit en compte comme un block  */
-    text-align: center ; 
-    background-color: blue ; 
-    padding: 10px ; 
-    border-radius: 7px ;
-    margin: 5px ;  
-    text-decoration: none ; 
-    color: white ; 
-    /* border: solid red 2px ; juste pour le test */
-}
-
-nav a:hover
-{
-    color: black ; 
-}
 
 #area-login
 {
@@ -194,14 +167,6 @@ footer
     header img 
     {
         height: 100px; 
-    }
-    nav 
-    {
-        flex-direction: column ; 
-    }
-    nav a 
-    {
-        height: 8px ;
     }
     aside
     {

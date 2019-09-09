@@ -15,7 +15,7 @@ class DefaultController extends AbstractController
     }
 
     /**
-     * @Route("/services")
+     * @Route("/services",  name="main_service")
      */
     public function services()
     {
@@ -23,7 +23,7 @@ class DefaultController extends AbstractController
     }
     
     /**
-     * @Route("/agence")
+     * @Route("/agence", name="main_agence")
      */
     public function agence()
     {
@@ -33,7 +33,7 @@ class DefaultController extends AbstractController
     
 
     /** 
-     * @Route("/article")
+     * @Route("/article", name="main_article")
      */
     public function article()
     {

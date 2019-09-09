@@ -7,125 +7,58 @@
     <title>{% block title %}Rédacom{% endblock %}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />  -->
+    <link rel="stylesheet" type="text/css" media="screen" href="css/design.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" media="screen" href="css/design.css" />
+
 </head>
 
 <body>
-    {% block coverHeader %}
     <header>
-        <img src="images/logo-site-alpha.png" alt="logo-site" />
-
-        <div class="slogan">
-            <p>L'agence de communication écrite</p>
-            <p>spécialisée dans la rédaction de vos documents professionnels.</p>
-        </div>
-        <div class="info-contact">
-            <p>Contact : 06-40-28-92-88</p>
-            <p><a href="mailto:info.redacom@gmail.com">info.redacom@gmail.com</a></p>
-        </div>
-        <div class="info-contact mobile">
-            <p><a href="tel:+33640289288">&#x260E;</a></p>
-            <p><a href="mailto:info.redacom@gmail.com">&#x2709;</a></p>
-        </div>
+            <img src="lake-banner.png" class="img-fluid" alt="Responsive image" />
     </header>
-    {% endblock %}
-    {% block menuNav %}
-    <nav>
-        <a id="cont-button-accueil" href="/">Accueil</a>
-        <a id="cont-button-service" href="services">Services</a>
-        <a id="cont-button-agencd" href="agence">L'agence</a>
-        <a id="cont-button-devis" href="devis">Devis</a>
-        <a id="cont-button-article" href="#">Article</a>
+
+
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-dark">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link" href="{{ path('index') }}">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{{ path('main_agence') }}">Agence</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="{{ path('main_service') }}">Service</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{{ path('main_devis') }}">Devis</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="{{ path('main_article') }}">Article</a>
+            </li>
+        </ul>
     </nav>
-    {% endblock %}
-    <main class="accueil">
-        <aside>
-            <q>7 bonnes raisons de nous confier la rédaction de vos procès-verbaux</q>
-            <ol>
-                <li>Un gain de temps assuré</li>
-                <li>Une qualité professionnelle</li>
-                <li>Un accompagnement personnalisé</li>
-                <li>Un Interlocteur unique</li>
-                <li>Un budget maîtrisé et ajusté</li>
-                <li>Une confidentialité garantie</li>
-                <li>Des délais de remise des PV adaptables à vos besoins</li>
-            </ol>
-        </aside>
-        <section class="mobile">
-            <q>7 bonnes raisons de nous confier la rédaction de vos procès-verbaux</q>
-            <ol>
-                <li>Un gain de temps assuré</li>
-                <li>Une qualité professionnelle</li>
-                <li>Un accompagnement personnalisé</li>
-                <li>Un Interlocteur unique</li>
-                <li>Un budget maîtrisé et ajusté</li>
-                <li>Une confidentialité garantie</li>
-                <li>Des délais de remise des PV adaptables à vos besoins</li>
-            </ol>
-        </section>
 
-        <div class="container">
-            {% block body %}
-                <h2>Page de base</h2>
-                <p>Ce contenenu doit etre surchargé" par les templates enfants</p>
-            {% endblock %}
-
-        </div>
-    </main>
-    {% block footer %}
-    <footer>
-        <div class="footer-nav">
-            <div>
-                <h2>Vos Besoins</h2>
-                <ul>
-                    <li>Rédaction de PV</li>
-                    <li>Retranscription audion</li>
-                    <li>Aide administrative</li>
-                    <li>Gestion de trésorie</li>
-                    <li>Expertise comptable</li>
-                </ul>
-            </div>
-
-            <div>
-                <h2>Nos solutions</h2>
-                <ul>
-                    <li>Transcription</li>
-                    <li>Compte-rendu</li>
-                    <li>Synthèse</li>
-                    <li>Flash</li>
-                    <li>Services Administratifs</li>
-                </ul>
-            </div>
-
-            <div>
-                <h2>Nos atouts</h2>
-                <ul>
-                    <li>Nos valeurs</li>
-                    <li>Nos atouts</li>
-                    <li>Nos méthodes</li>
-                    <li>Qui suis-je ?</li>
-                </ul>
-            </div>
-
-            <div>
-                <h2>Nous contacter</h2>
-                <ul>
-                    <li>Contact</li>
-                    <li>Devis</li>
-                </ul>
-            </div>
-        </div>
+    <div class="container">
+        {% block body %}
+        {% endblock %}
+    </div>
 
 
-        <p>2019 Rédacom Mentions Légales</p>
-    </footer>
-    {% endblock %}
-    <!-- <script src="bootstrap/js/bootstrap.min.js"></script> -->
+
+
+
 </body>
 
 </html>

@@ -11,7 +11,7 @@ use App\Form\RequestDevisType;
 class DevisController extends AbstractController
 {
     /**
-     * @Route("/devis", name="devis")
+     * @Route("/devis", name="main_devis")
      */
     public function index(Request $request, \Swift_Mailer $mailer)
     {
